@@ -9,7 +9,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, rgb(231, 157, 238),rgb(135, 233, 126));
+  background: #FDF6EC;
 }
 
 header {
@@ -17,7 +17,15 @@ header {
   width: 80vw;
   margin: 2rem auto;
   padding: 2rem ;
+  background: orange;
  }
+
+.Form{
+  width: 80vw;
+  margin: 2rem auto;
+  padding: 2rem ;
+  background: orange;
+}
 
 .inputForm {
   width: 80vh;
@@ -35,7 +43,7 @@ header {
 
 .inputForm button {
   padding: 0.38rem 0.5rem;
-  background: rgb(243, 240, 84);
+  background: yellow;
 }
 
 .todoList {
