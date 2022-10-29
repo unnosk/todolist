@@ -7,24 +7,35 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
+  color: #4D3E3E;
   width: 100vw;
   height: 100vh;
-  background: #FDF6EC;
+  background: #FFF3CD;
 }
 
 header {
   text-align: center;
-  width: 80vw;
+  width: 40vw;
   margin: 2rem auto;
   padding: 2rem ;
-  background: orange;
+  background: #FFC38B;
+  border-radius: 50px;
  }
 
 .Form{
   width: 80vw;
-  margin: 2rem auto;
+  margin-left: 180px;
   padding: 2rem ;
-  background: orange;
+  background: #FF926B;
+  border-radius: 50px 50px 0 0;
+}
+
+.Form1{
+  width: 80vw;
+  margin-left: 180px;
+  padding: 2rem ;
+  background: #FF926B;
+  border-radius: 0 0 50px 50px;
 }
 
 .inputForm {
@@ -43,7 +54,7 @@ header {
 
 .inputForm button {
   padding: 0.38rem 0.5rem;
-  background: yellow;
+  background: #FFD93D;
 }
 
 .todoList {
@@ -60,18 +71,18 @@ header {
 
 .completed {
   text-decoration: line-through;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 
 .icons .fa-check {
   padding: 0.487rem .5rem;
-  background: rgb(83, 164, 195);
+  background: #4D96FF;
 }
 
 .icons .fa-trash {
   padding: 0.487rem .5rem;
-  background: rgb(197, 70, 81);
+  background:#FF6B6B;
 }
 
 .todoText {

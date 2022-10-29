@@ -20,7 +20,7 @@ export const TodoList = ({taskList, setTaskList}) => {
 
 
   return (
-    <div className="Form">
+    <div className="Form1">
       <div className="todolist">
         <div className="todos">
           {taskList.map((task, index) => (
