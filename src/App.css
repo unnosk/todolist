@@ -23,19 +23,20 @@ header {
  }
 
 .Form{
-  width: 80vw;
-  margin-left: 180px;
+  width: 50vw;
+  margin-left: 25vw;
   padding: 2rem ;
   background: #FF926B;
-  border-radius: 50px 50px 0 0;
+  border-radius: 70px 70px 0 0;
 }
 
 .Form1{
-  width: 80vw;
-  margin-left: 180px;
+  width: 50vw;
+  height: 40vw;
+  margin-left: 25vw;
   padding: 2rem ;
   background: #FF926B;
-  border-radius: 0 0 50px 50px;
+  border-radius: 0 0 70px 70px;
 }
 
 .inputForm {
